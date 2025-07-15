@@ -3,37 +3,47 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HTML - Parágrafos e Quebras</title>
+  <title>HTML - Símbolos e Emojis</title>
 </head>
 <body>
 
-  <h1>Parágrafos e Quebras de Linha em HTML</h1>
+  <h1>Inserindo Símbolos Especiais e Emojis em HTML</h1>
 
-  <h2>1. Parágrafos com &lt;p&gt;</h2>
-  <p>Este é o primeiro parágrafo do meu texto.</p>
-  <p>Este é o segundo parágrafo, separado do anterior por um espaço.</p>
-
-  <h2>2. Quebra de Linha com &lt;br&gt;</h2>
+  <h2>1. Por que usar entidades HTML?</h2>
   <p>
-    Este é um texto com uma quebra de linha.<br>
-    O restante do texto continua na linha de baixo, mas ainda faz parte do mesmo parágrafo.
+    Alguns caracteres especiais podem causar confusão com a própria sintaxe do HTML (como &lt;, &gt;, &amp;, etc.).
+    Por isso, usamos entidades HTML para representá-los de forma segura.
   </p>
 
-  <h2>3. Exemplo Comparativo</h2>
-  <p>Este é o primeiro parágrafo.</p>
-  <p>Este é o segundo parágrafo. Eles terão um espaço maior entre si.</p>
-
-  <p>
-    Este é um texto com uma quebra de linha.<br>
-    A segunda parte aparece abaixo, mas no mesmo parágrafo.
-  </p>
-
-  <h2>4. Dicas Importantes</h2>
+  <h2>2. Exemplos de Símbolos Especiais</h2>
   <ul>
-    <li>&lt;p&gt;: Cria blocos de texto com margem antes e depois.</li>
-    <li>&lt;br&gt;: Quebra de linha no meio do parágrafo, sem margem.</li>
-    <li>Use <strong>&lt;p&gt;</strong> para separar ideias; use <strong>&lt;br&gt;</strong> para forçar uma quebra visual.</li>
-    <li><code>&lt;b&gt;</code> e <code>&lt;i&gt;</code> são usados apenas para estilizar o texto dentro dos parágrafos.</li>
+    <li>&amp;lt; → &lt;</li>
+    <li>&amp;gt; → &gt;</li>
+    <li>&amp;amp; → &amp;</li>
+    <li>&amp;copy; → &copy;</li>
+    <li>&amp;euro; → &euro;</li>
+    <li>&amp;yen; → &yen;</li>
+    <li>&amp;reg; → &reg;</li>
+  </ul>
+
+  <p>Esses códigos são chamados de entidades HTML e começam com & e terminam com ;</p>
+
+  <h2>3. Inserindo Emojis 😊</h2>
+  <p>Você pode inserir emojis diretamente no código HTML, desde que o documento esteja usando <code>UTF-8</code> no charset (como no &lt;meta charset="UTF-8"&gt;).</p>
+
+  <p>Exemplo de emojis inseridos diretamente:</p>
+  <ul>
+    <li>😀 😎 🤖 🎉 ❤️</li>
+    <li>🔥 📚 💻 ✅ 🚀</li>
+  </ul>
+
+  <p>Esses emojis são compatíveis com a maioria dos navegadores e sistemas modernos.</p>
+
+  <h2>4. Observações Importantes</h2>
+  <ul>
+    <li>Prefira sempre usar <code>charset="UTF-8"</code> no &lt;head&gt; para suportar emojis e caracteres especiais.</li>
+    <li>Nem todos os emojis ou símbolos aparecem igual em todos os sistemas (Windows, Android, iOS...)</li>
+    <li>Use entidades HTML quando quiser garantir a exibição correta de caracteres reservados.</li>
   </ul>
 
 </body>

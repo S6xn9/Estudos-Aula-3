@@ -2,7 +2,7 @@
 # 💡 HTML - Símbolos e Emojis
 
 📅 Criado em: **15 de julho de 2025**  
-📚 Matéria: **Desenvolvimento Web / HTML**  
+📚 Matéria:**Programação Web (HTML5 e CSS3)**  
 ✍️ Autor: **Marco**
 
 ---
